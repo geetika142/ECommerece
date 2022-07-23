@@ -16,6 +16,7 @@ public class TestPreparedStatement {
 				
 				)
 		{
+            System.out.println("Geetika");
 			System.out.println("Enter dept id n join date(yyyy-mm-dd)");
 			//set IN params : dept id
 			pst.setString(1, sc.next());
